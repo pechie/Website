@@ -29,7 +29,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            Pechie <i className="fab fa-typo3"></i>
+            pechie.github.io
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -42,33 +42,35 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/services"
+                to="/experience"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Services
+                Experience
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/resume"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
+                Resume
               </Link>
             </li>
+            {/* This link only appears in the mobile menu, 
+            where it replaces the 'Contact Me' button */}
             <li className="nav-item">
               <Link
-                to="/sign-up"
-                className="nav-links"
+                to="/contact"
+                className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Contact Me
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+          {button && <Button buttonStyle="btn--outline">Contact Me</Button>}
         </div>
       </nav>
     </>
