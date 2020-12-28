@@ -6,7 +6,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer-container">
-      <section className="footer-subscription">
+      {/* <section className="footer-subscription">
         <p className="footer-subscription-heading">
           Join our sick newsletter for phat deals on vacays
         </p>
@@ -24,9 +24,9 @@ function Footer() {
             <Button buttonStyle="btn--outline">Subscribe</Button>
           </form>
         </div>
-      </section>
+      </section> */}
       <div className="footer-links">
-        <div className="footer-link-wrapper">
+        {/* <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>About Us</h2>
             <Link to="/sign-up">How it works</Link>
@@ -35,15 +35,30 @@ function Footer() {
             <Link to="/">Investors</Link>
             <Link to="/">Terms of Service</Link>
           </div>
-        </div>
+        </div> */}
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>References</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Save The</Link>
-            <Link to="/">Turtles</Link>
-            <Link to="/">Terms of Service</Link>
+            <Link
+              to={{ pathname: "https://github.com/pechie/Website" }}
+              target="_blank"
+            >
+              Source code
+            </Link>
+            <Link
+              to={{ pathname: "https://www.youtube.com/watch?v=-MKapbz0GIo" }}
+              target="_blank"
+            >
+              Background video on home page
+            </Link>
+            <Link
+              to={{
+                pathname: "https://www.youtube.com/watch?v=I2UBjN5ER4s&t=4526s",
+              }}
+              target="_blank"
+            >
+              Tutorial that helped create this site
+            </Link>
           </div>
         </div>
       </div>
@@ -54,13 +69,12 @@ function Footer() {
               Nikolas Pechie
             </Link>
           </div>
-          <small className="website-rights">Updated 12/27/2020</small>
+          <small className="website-rights">Updated 12/28/2020</small>
           <div className="social-icons">
             <Link
               className="social-icon-link email"
               to={{ pathname: "mailto:pechie717@gmail.com" }}
               target="_blank"
-              rel="noopener noreferrer"
               aria-label="Email"
             >
               <i className="fas fa-envelope"></i>

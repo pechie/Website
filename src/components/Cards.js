@@ -5,10 +5,10 @@ import "./Cards.css";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out these EPIC destinations</h1>
-      <div className="cards__container">
-        <div className="cards__wrapper">
-          <ul className="cards__items">
+      <h1>Some of my skills...</h1>
+      <div className="cards-container">
+        <div className="cards-wrapper">
+          <ul className="cards-items">
             <CardItem
               src="/images/img-9.jpg"
               text="Explore the hidden waterfall deep inside the Amazon jungle"
@@ -22,7 +22,7 @@ function Cards() {
               path="/services"
             />
           </ul>
-          <ul className="cards__items">
+          <ul className="cards-items">
             <CardItem
               src="/images/img-5.jpg"
               text="Do something else"
