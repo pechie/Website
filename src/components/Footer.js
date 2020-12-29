@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "./Button";
+// import { Button } from "./Button";
 import "./Footer.css";
 
-function Footer() {
+export default function Footer() {
   return (
     <div className="footer-container">
       {/* <section className="footer-subscription">
@@ -49,7 +49,7 @@ function Footer() {
               to={{ pathname: "https://www.youtube.com/watch?v=-MKapbz0GIo" }}
               target="_blank"
             >
-              Background video on home page
+              Background video
             </Link>
             <Link
               to={{
@@ -106,5 +106,3 @@ function Footer() {
     </div>
   );
 }
-
-export default Footer;

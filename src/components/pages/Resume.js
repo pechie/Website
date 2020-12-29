@@ -1,11 +1,12 @@
 import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
+import Document from "../Document";
 
 export default function Resume() {
   return (
     <>
-      <h1 className="resume">Resume</h1>;
+      <Document />
       <Footer />
     </>
   );

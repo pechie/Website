@@ -2,7 +2,7 @@ import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
 
-function Cards() {
+export default function Cards() {
   return (
     <div className="cards">
       <h1>Some of my skills...</h1>
@@ -47,5 +47,3 @@ function Cards() {
     </div>
   );
 }
-
-export default Cards;

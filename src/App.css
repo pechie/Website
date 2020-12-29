@@ -5,10 +5,7 @@
   font-family: "PT Sans", sans-serif;
 }
 
-.home,
-.resume,
-.experience,
-.contact {
+.home {
   display: flex;
   height: 50vh;
   align-items: center;
@@ -17,17 +14,12 @@
 }
 
 .resume {
-  /* background-image: url("./images/img-2.jpg"); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   color: #000000;
   font-size: 100px;
   min-height: 100%;
 }
 
 .experience {
-  /* background-image: url("./images/img-1.jpg"); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -36,7 +28,6 @@
 }
 
 .contact {
-  /* background-image: url("./images/img-8.jpg"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

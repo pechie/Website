@@ -7,7 +7,7 @@ import Resume from "./components/pages/Resume";
 import Experience from "./components/pages/Experience";
 import Contact from "./components/pages/Contact";
 
-function App() {
+export default function App() {
   return (
     <>
       <Router>
@@ -22,5 +22,3 @@ function App() {
     </>
   );
 }
-
-export default App;
