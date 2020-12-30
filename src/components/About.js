@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import Cards from "../components/Cards";
 
 export default function About() {
   return (
@@ -19,6 +20,7 @@ export default function About() {
       </div>
       <div className="skills-container">
         <h1>Skills</h1>
+        <Cards />
       </div>
     </div>
   );

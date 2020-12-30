@@ -57,7 +57,7 @@ export default function Footer() {
               }}
               target="_blank"
             >
-              Tutorial that helped create this site
+              <p>Tutorial that helped create this site</p>
             </Link>
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function Footer() {
               Nikolas Pechie
             </Link>
           </div>
-          <small className="website-rights">Updated 12/28/2020</small>
+          <small className="updated-tag">Updated 12/28/2020</small>
           <div className="social-icons">
             <Link
               className="social-icon-link email"

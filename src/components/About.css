@@ -6,6 +6,8 @@
 }
 
 .about-container {
+  display: flex;
+  flex-direction: column;
   background-color: #082d3b;
   border-radius: 30px;
   float: left;
@@ -16,6 +18,8 @@
 }
 
 .skills-container {
+  display: flex;
+  flex-direction: column;
   background-color: #082d3b;
   border-radius: 30px;
   float: left;
@@ -23,6 +27,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  min-height: 450px;
 }
 
 .about-container > h1,

@@ -1,48 +1,58 @@
 import React from "react";
-import CardItem from "./CardItem";
 import "./Cards.css";
 
 export default function Cards() {
   return (
-    <div className="cards">
-      <h1>Some of my skills...</h1>
-      <div className="cards-container">
-        <div className="cards-wrapper">
-          <ul className="cards-items">
-            <CardItem
-              src="/images/img-9.jpg"
-              text="Explore the hidden waterfall deep inside the Amazon jungle"
-              label="Adventure"
-              path="/services"
-            />
-            <CardItem
-              src="/images/img-2.jpg"
-              text="Travel through the islands of Bali on a private cruise"
-              label="Luxury"
-              path="/services"
-            />
-          </ul>
-          <ul className="cards-items">
-            <CardItem
-              src="/images/img-5.jpg"
-              text="Do something else"
-              label="Cash"
-              path="/services"
-            />
-            <CardItem
-              src="/images/img-4.jpg"
-              text="Apply for jobs"
-              label="DogeCoin"
-              path="/services"
-            />
-            <CardItem
-              src="/images/img-1.jpg"
-              text="Deploy this website to Github"
-              label="Broke"
-              path="/services"
-            />
-          </ul>
-        </div>
+    <div className="cards-container">
+      <CardItem
+        src="/images/nodejs-logo.png"
+        title="NodeJS"
+        text="9 months of experience with NodeJS at Integrity Security Services, 
+              and another six months on my senior project"
+      />
+      <CardItem
+        src="/images/react-logo.png"
+        title="React"
+        text="Self taught in React through following tutorials on YouTuber, 
+              culminating in creating this website"
+      />
+      <CardItem
+        src="/images/react-logo.png"
+        title="React"
+        text="Self taught in React through following tutorials on YouTuber, 
+              culminating in creating this website"
+      />
+      <CardItem
+        src="/images/react-logo.png"
+        title="React"
+        text="Self taught in React through following tutorials on YouTuber, 
+              culminating in creating this website"
+      />
+      <CardItem
+        src="/images/nodejs-logo.png"
+        title="NodeJS"
+        text="9 months of experience with NodeJS at Integrity Security Services, 
+              and another six months on my senior project"
+      />
+      <CardItem
+        src="/images/nodejs-logo.png"
+        title="NodeJS"
+        text="9 months of experience with NodeJS at Integrity Security Services, 
+              and another six months on my senior project"
+      />
+    </div>
+  );
+}
+
+function CardItem(props) {
+  return (
+    <div className="card-item">
+      <div className="img-container">
+        <img src={props.src} alt="Skill logo" />
+      </div>
+      <div className="txt-container">
+        <h1>{props.title}</h1>
+        <p>{props.text}</p>
       </div>
     </div>
   );
