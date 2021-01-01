@@ -10,7 +10,7 @@ export default function Document() {
         <h1>Resume</h1>
         <iframe
           className="document-pdf"
-          src="/Resume_12_28_20.pdf"
+          src="/Resume_12_31_20.pdf"
           title="Resume"
         />
       </div>

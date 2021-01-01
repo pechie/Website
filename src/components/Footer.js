@@ -6,36 +6,7 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <div className="footer-container">
-      {/* <section className="footer-subscription">
-        <p className="footer-subscription-heading">
-          Join our sick newsletter for phat deals on vacays
-        </p>
-        <p className="footer-subscription-text">
-          You can unsubscribe at any time
-        </p>
-        <div className="input-areas">
-          <form>
-            <input
-              type="email"
-              name="email"
-              placeHolder="Your Email"
-              className="footer-input"
-            />
-            <Button buttonStyle="btn--outline">Subscribe</Button>
-          </form>
-        </div>
-      </section> */}
       <div className="footer-links">
-        {/* <div className="footer-link-wrapper">
-          <div className="footer-link-items">
-            <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
-          </div>
-        </div> */}
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>References</h2>
@@ -69,7 +40,7 @@ export default function Footer() {
               Nikolas Pechie
             </Link>
           </div>
-          <small className="updated-tag">Updated 12/28/2020</small>
+          <small className="updated-tag">Updated 01/01/2021</small>
           <div className="social-icons">
             <Link
               className="social-icon-link email"

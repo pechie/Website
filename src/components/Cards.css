@@ -24,6 +24,7 @@
 .img-container {
   height: 100px;
   width: 100px;
+  margin-left: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,20 +60,3 @@
   height: 100%;
   width: 100%;
 }
-
-/* .scrollbar-track {
-  background-color: white;
-  right: 0px;
-  bottom: 2px;
-  top: 2px;
-  border-radius: 3px;
-  width: 8px;
-}
-
-.scrollbar-thumb {
-  width: 4px;
-  border-radius: 4px;
-  top: 2px;
-  left: 2px;
-  background-color: #082d3b;
-} */

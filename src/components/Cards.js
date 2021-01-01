@@ -39,38 +39,37 @@ export default function Cards() {
         <CardItem
           src="/images/nodejs-logo.png"
           title="NodeJS"
-          text="9 months of experience with NodeJS at Integrity Security Services, 
-              and another six months on my senior project"
+          text="Developed a project using NodeJS for 9 months at Integrity Security Services,
+                spent another 6 months with NodeJS for my senior project."
         />
         <CardItem
           src="/images/react-logo.png"
           title="React"
-          text="Self taught in React through following tutorials on YouTuber, 
-              culminating in creating this website"
+          text="Taught myself React during December of 2020 in order to create this website."
         />
         <CardItem
-          src="/images/react-logo.png"
-          title="React"
-          text="Self taught in React through following tutorials on YouTuber, 
-              culminating in creating this website"
+          src="/images/git-logo.png"
+          title="Git"
+          text="Familiar with git through using both Github and Bitbucket, 
+                very comfortable using git to contribute to large projects."
         />
         <CardItem
-          src="/images/react-logo.png"
-          title="React"
-          text="Self taught in React through following tutorials on YouTuber, 
-              culminating in creating this website"
+          src="/images/jira-logo.png"
+          title="Jira"
+          text="Used Jira for Agile development on two of my three internships, 
+                as well as for multiple project based classes."
         />
         <CardItem
-          src="/images/nodejs-logo.png"
-          title="NodeJS"
-          text="9 months of experience with NodeJS at Integrity Security Services, 
-              and another six months on my senior project"
+          src="/images/jenkins-logo.png"
+          title="Jenkins"
+          text="Learned the basic of Jenkins while working at Bose, 
+                had a more hands-on experience configuring Jenkins tests at ISS."
         />
         <CardItem
-          src="/images/nodejs-logo.png"
-          title="NodeJS"
-          text="9 months of experience with NodeJS at Integrity Security Services, 
-              and another six months on my senior project"
+          src="/images/teamcity-logo.png"
+          title="TeamCity"
+          text="Continuously created automated tests in TeamCity while working at Qinetiq, 
+                and had sole responsibility of their maintenence."
         />
       </Scrollbars>
     </div>
