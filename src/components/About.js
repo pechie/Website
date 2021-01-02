@@ -8,14 +8,17 @@ export default function About() {
       <div className="about-container">
         <h1>About me</h1>
         <p>
-          Hi, I'm Nick. Write a few sentences about myself here, I go to
-          Northeastern University. After choosing Computer Engineering, I began
-          to shift my focus towards the software side of things. After trying
-          embedded software, now prepared to do software development full time.
-          I'm looking for a job, please hire me. Outside of software
-          engineering, some of my hobbies include playing and watching
-          basketball, cooking, listening to music, and something else that's
-          interesting about me.
+          Hi, I'm Nick. I am currently a Senior at Northeastern University, and
+          I will be graduating this upcoming May with a B.S. in Computer
+          Engineering and a minor in Computer Science. Throughout my time at
+          college, I completed three internships in software engineering which
+          gave me a total of 23 months of working experience. I am seeking full
+          time employment upon graduation, ideally doing back end development
+          using Javascript or Java, but I am open to any and all opportunities.
+          Outside of software engineering, I am an avid basketball and soccer
+          fan, and I enjoy music, reading, cooking, and just about anything else
+          that will keep me off of Twitter. Please feel free to reach out to
+          learn more about me!
         </p>
       </div>
       <div className="skills-container">

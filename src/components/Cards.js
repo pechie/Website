@@ -13,12 +13,14 @@ export default function Cards() {
             {...props}
             style={{
               ...style,
-              backgroundColor: "white",
+              backgroundColor: "rgba(122, 149, 159, 0.5)",
               right: "0px",
               bottom: "2px",
               top: "2px",
               borderRadius: "3px",
               width: "8px",
+              marginTop: "10px",
+              marginBottom: "10px",
             }}
           />
         )}
@@ -48,6 +50,13 @@ export default function Cards() {
           text="Taught myself React during December of 2020 in order to create this website."
         />
         <CardItem
+          src="/images/aws-logo.png"
+          title="AWS"
+          text="Utilized multiple AWS technologies during my most recent internship, 
+                as well as for my senior project. Specifically, Lambda, DynamoDB, 
+                SQS, API Gateway, CloudWatch, S3, IAM, and EC2."
+        />
+        <CardItem
           src="/images/git-logo.png"
           title="Git"
           text="Familiar with git through using both Github and Bitbucket, 
@@ -62,7 +71,7 @@ export default function Cards() {
         <CardItem
           src="/images/jenkins-logo.png"
           title="Jenkins"
-          text="Learned the basic of Jenkins while working at Bose, 
+          text="Learned the basics of Jenkins while working at Bose, 
                 had a more hands-on experience configuring Jenkins tests at ISS."
         />
         <CardItem
