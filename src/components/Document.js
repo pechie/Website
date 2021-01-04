@@ -1,6 +1,5 @@
 import React from "react";
 import "./Document.css";
-// import { Document as Doc, Page } from "react-pdf";
 
 export default function Document() {
   return (
