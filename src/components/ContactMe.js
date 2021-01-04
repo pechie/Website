@@ -9,18 +9,22 @@ export default function ContactMe() {
         <p>Please feel free to reach out with any questions you may have.</p>
       </div>
       <div className="contact-cards-container">
-        <CardItem title="Email" text="pechie717@gmail.com" />
-        <CardItem title="Phone" text="774-452-2647" />
+        <div className="contact-card-item">
+          <h1>Email</h1>
+          <p>
+            Feel free to reach out with any questions you may have, you can
+            either use to link below, or send me an email at pechie717@gmail.com
+          </p>
+          <a href="mailto:pechie717@gmail.com" target="_blank" rel="noreferrer">
+            <button className="email-button" type="button">
+              Send me an Email
+            </button>
+          </a>
+        </div>
+        <div className="contact-card-item">
+          <h1>Call me beep me</h1>
+        </div>
       </div>
-    </div>
-  );
-}
-
-function CardItem(props) {
-  return (
-    <div className="contact-card-item">
-      <h1>{props.title}</h1>
-      <p>{props.text}</p>
     </div>
   );
 }

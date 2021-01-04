@@ -40,7 +40,41 @@
 }
 
 .contact-card-item {
-  border: 2px solid green;
   height: 60%;
   width: 30%;
+  margin: 40px;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 0 8px #888888;
+  border-top: 5px solid #50cbaf;
+}
+
+.contact-card-item > h1 {
+  margin: 50px;
+}
+
+.contact-card-item > p {
+  font-size: 18px;
+  color: #3b3b3b;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.email-button {
+  font-size: 20px;
+  height: 50px;
+  min-width: 40%;
+  width: auto;
+  margin: 40px;
+  background-color: #fff;
+  color: #50cbaf;
+  border: 2px solid #50cbaf;
+  border-radius: 20px;
+  box-shadow: 0 0 8px #888888;
+  outline: none;
+}
+
+.email-button:hover {
+  background-color: #50cbaf;
+  color: #fff;
 }
