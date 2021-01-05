@@ -4,7 +4,7 @@ video {
   min-height: 100%;
   width: auto;
   height: auto;
-  position: absolute;
+  position: fixed;
   z-index: -1;
   bottom: 0;
 }

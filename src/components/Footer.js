@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="footer-link-items">
             <h2>References</h2>
             <Link
-              to={{ pathname: "https://github.com/pechie/Website" }}
+              to={{ pathname: "https://github.com/pechie/profile" }}
               target="_blank"
             >
               Source code
@@ -24,7 +24,7 @@ export default function Footer() {
             </Link>
             <Link
               to={{
-                pathname: "https://www.youtube.com/watch?v=I2UBjN5ER4s&t=4526s",
+                pathname: "https://youtu.be/I2UBjN5ER4s",
               }}
               target="_blank"
             >
@@ -40,7 +40,7 @@ export default function Footer() {
               Nikolas Pechie
             </Link>
           </div>
-          <small className="updated-tag">Updated 01/01/2021</small>
+          <small className="updated-tag">Updated 01/04/2021</small>
           <div className="social-icons">
             <Link
               className="social-icon-link email"
