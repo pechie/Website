@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./components/pages/Home";
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/experience" component={Experience} />
           <Route path="/contact" component={Contact} />
         </Switch>
+        <Footer />
       </Router>
     </>
   );

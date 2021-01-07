@@ -1,12 +1,11 @@
 import React from "react";
 import "../../App.css";
-import Footer from "../Footer";
+import Work from "../Work";
 
 export default function Experience() {
   return (
     <>
-      <h1 className="experience">Experience</h1>;
-      <Footer />
+      <Work />
     </>
   );
 }

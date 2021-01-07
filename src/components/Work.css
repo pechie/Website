@@ -1,0 +1,44 @@
+.work-container {
+  width: 100%;
+  height: 91.7vh;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.work-cards-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid green;
+}
+
+.work-card-item {
+  min-height: 200px;
+  height: 80%;
+  min-width: 400px;
+  width: 30%;
+  margin: 40px;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 0 8px #888888;
+  border-top: 5px solid #50cbaf;
+  justify-content: center;
+}
+
+.work-card-item > h1 {
+  margin: 50px;
+  color: #292929;
+}
+
+.work-card-item > p {
+  font-size: 18px;
+  color: #3b3b3b;
+  margin-left: 50px;
+  margin-right: 50px;
+}
