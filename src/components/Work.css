@@ -8,8 +8,13 @@
   padding-top: 10px;
 }
 
-.work-cards-container {
+h1 {
+  color: #1f1f1f;
+}
+
+.job-cards-container {
   width: 100%;
+  min-height: 400px;
   height: 50%;
   display: flex;
   flex-direction: row;
@@ -18,8 +23,8 @@
   border: 2px solid green;
 }
 
-.work-card-item {
-  min-height: 200px;
+.job-card-item {
+  min-height: 330px;
   height: 80%;
   min-width: 400px;
   width: 30%;
@@ -28,7 +33,9 @@
   border-radius: 25px;
   box-shadow: 0 0 8px #888888;
   border-top: 5px solid #50cbaf;
-  justify-content: center;
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
   -webkit-transition: all 100ms ease-out;
   -moz-transition: all 100ms ease-out;
   -o-transition: all 100ms ease-out;
@@ -36,19 +43,111 @@
   transition: all 100ms ease-out;
 }
 
-.work-card-item > h1 {
+.job-card-item > h1 {
   margin: 50px;
   color: #292929;
 }
 
-.work-card-item > p {
+.job-card-item > p {
   font-size: 18px;
   color: #3b3b3b;
   margin-left: 50px;
   margin-right: 50px;
 }
 
-.work-card-item:hover {
+.job-card-item:hover {
   height: 85%;
   width: 33%;
+}
+
+.job-header-container {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.job-body-container {
+  width: 100%;
+  height: 70%;
+  text-align: left;
+}
+
+.job-body-container > ul {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  color: #1b1b1b;
+  margin: 20px;
+  margin-left: 30px;
+}
+
+.job-header-container > img {
+  height: 100px;
+  width: 100px;
+  border-radius: 25px;
+  margin-left: 10px;
+}
+
+.job-header-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.job-header-text-container > h1 {
+  margin-bottom: 0;
+}
+
+.job-header-text-container > p {
+  line-height: 18px;
+}
+
+@media only screen and (max-width: 1800px) {
+  .job-header-text-container > h1 {
+    font-size: 24px;
+  }
+
+  .job-body-container > ul {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .job-card-item {
+    width: 70%;
+    min-height: 200px;
+    height: auto;
+  }
+
+  .job-cards-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .job-card-item:hover {
+    width: 75%;
+  }
+
+  .job-header-container > img {
+    margin-left: 25px;
+  }
+
+  .work-container {
+    height: auto;
+  }
+
+  .job-header-container {
+    height: 30%;
+  }
+
+  .job-body-container {
+    height: 70%;
+  }
+
+  .job-body-container > ul {
+    font-size: 18px;
+  }
 }
