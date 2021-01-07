@@ -29,6 +29,11 @@
   box-shadow: 0 0 8px #888888;
   border-top: 5px solid #50cbaf;
   justify-content: center;
+  -webkit-transition: all 100ms ease-out;
+  -moz-transition: all 100ms ease-out;
+  -o-transition: all 100ms ease-out;
+  -ms-transition: all 100ms ease-out;
+  transition: all 100ms ease-out;
 }
 
 .work-card-item > h1 {
@@ -41,4 +46,9 @@
   color: #3b3b3b;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.work-card-item:hover {
+  height: 85%;
+  width: 33%;
 }
