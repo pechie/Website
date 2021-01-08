@@ -45,11 +45,6 @@ export default function Cards() {
                 spent another 6 months with NodeJS for my senior project."
         />
         <CardItem
-          src="/images/react-logo.png"
-          title="React"
-          text="Taught myself React during December of 2020 in order to create this website."
-        />
-        <CardItem
           src="/images/aws-logo.png"
           title="AWS"
           text="Utilized multiple AWS technologies during my most recent internship, 
@@ -61,6 +56,11 @@ export default function Cards() {
           title="Git"
           text="Familiar with git through using both Github and Bitbucket, 
                 very comfortable using git to contribute to large projects."
+        />
+        <CardItem
+          src="/images/react-logo.png"
+          title="React"
+          text="Taught myself React during December of 2020 in order to create this website."
         />
         <CardItem
           src="/images/jira-logo.png"

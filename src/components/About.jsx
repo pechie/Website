@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Cards from "../components/Cards";
+import Cards from "./Cards";
 
 export default function About() {
   return (
