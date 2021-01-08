@@ -1,4 +1,4 @@
-video {
+.hero-container > video {
   object-fit: cover;
   min-width: 100%;
   min-height: 100%;
@@ -10,6 +10,7 @@ video {
 }
 
 .hero-container {
+  min-height: 550px;
   height: 60vh; /*91.7 for full screen*/
   width: 100%;
   display: flex;

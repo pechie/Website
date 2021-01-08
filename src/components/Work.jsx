@@ -92,38 +92,54 @@ export default function Work() {
       <div className="project-cards-container">
         <div className="project-card-item">
           <div className="project-card-text">
-            <h1>Project Name</h1>
+            <h1>Plant Pod</h1>
             <p>
-              Say a bunch of things about this project, 
-              how long it took, when I did it, what I learned, etc
+              This project was for my Capstone class, which at Northeastern all engineering students
+              are required to take in their Senior year. My group consisted of myself and four other students,
+              and we decided to build a self-sufficient plant growth pod that could be monitored from
+              a mobile application. My responsibilities for this project were creating our back end using NodeJS 
+              and multiple AWS services, as well as working on our mobile application in React Native with 
+              one of my group members. The AWS Services I used for this project were DynamoDB, Lambda, API Gateway,
+              Cloudwatch, S3, and IAM.
             </p>
           </div>
-          <div className="project-card-gif">
-            <img src="/images/aws-logo.png" alt="AWS" />
+          <div className="project-card-media">
+            <img src="/images/plant-pod.gif" alt="Plant Pod" />
           </div>
         </div>
         <div className="project-card-item">
           <div className="project-card-text">
-            <h1>Project Name</h1>
+            <h1>Twitter Bot</h1>
             <p>
-              Say a bunch of things about this project, 
-              how long it took, when I did it, what I learned, etc
+              Inspired by the account <a href="https://twitter.com/artdecider">@ArtDecider on Twitter</a>, 
+              I decided that I wanted to learn how to create my own bot that could reply to tweets on command. 
+              I did this by first creating a developer account which gave me access to Twitter's API, 
+              and then creating a NodeJS project that constantly checks if the account has been mentioned in a tweet,
+              which will cause the account to like that tweet and reply with a random message. 
+              I then deployed my project to Heroku so that it can run constantly.
+              You can view <a href="https://twitter.com/boldandbrashbot">@BoldAndBrashBot on Twitter</a>, 
+              or see the source code on <a href="https://github.com/pechie/TwitterBot">my Github</a>.
             </p>
           </div>
-          <div className="project-card-gif">
-            <img src="/images/aws-logo.png" alt="AWS" />
+          <div className="project-card-media">
+            <img src="/images/bold-and-brash-bot.jpg" alt="Twitter Bot" />
           </div>
         </div>
         <div className="project-card-item">
           <div className="project-card-text">
-            <h1>Project Name</h1>
+            <h1>Sir Vive</h1>
             <p>
-              Say a bunch of things about this project, 
-              how long it took, when I did it, what I learned, etc
+              In the Winter of 2018, I wanted my own introduction to game development in Unity,
+              so I created a one level game titled Sir Vive, which resembles a simple Mario game.
+              All of the assets from the game were either created or imported in Unity, and the scripts
+              for the objects were written in C#. Through completing this project, I actually learned that
+              I wasn't as interested in game development, at least on a small scale, as I had originally thought.
+              This project was much more demanding in terms of animation and design than I had anticipated, 
+              neither of which I prefer to writing code.
             </p>
           </div>
-          <div className="project-card-gif">
-            <img src="/images/aws-logo.png" alt="AWS" />
+          <div className="project-card-media">
+            <video src="/videos/sir-vive-gameplay.mp4" autoPlay loop muted />
           </div>
         </div>
       </div>
