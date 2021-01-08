@@ -89,15 +89,42 @@ export default function Work() {
         </div>
       </div>
       <h1>Projects</h1>
-      <div className="work-cards-container">
+      <div className="project-cards-container">
         <div className="project-card-item">
-          <h1> item 1 </h1>
+          <div className="project-card-text">
+            <h1>Project Name</h1>
+            <p>
+              Say a bunch of things about this project, 
+              how long it took, when I did it, what I learned, etc
+            </p>
+          </div>
+          <div className="project-card-gif">
+            <img src="/images/aws-logo.png" alt="AWS" />
+          </div>
         </div>
         <div className="project-card-item">
-          <h1> item 2 </h1>
+          <div className="project-card-text">
+            <h1>Project Name</h1>
+            <p>
+              Say a bunch of things about this project, 
+              how long it took, when I did it, what I learned, etc
+            </p>
+          </div>
+          <div className="project-card-gif">
+            <img src="/images/aws-logo.png" alt="AWS" />
+          </div>
         </div>
         <div className="project-card-item">
-          <h1> item 3 </h1>
+          <div className="project-card-text">
+            <h1>Project Name</h1>
+            <p>
+              Say a bunch of things about this project, 
+              how long it took, when I did it, what I learned, etc
+            </p>
+          </div>
+          <div className="project-card-gif">
+            <img src="/images/aws-logo.png" alt="AWS" />
+          </div>
         </div>
       </div>
     </div>
