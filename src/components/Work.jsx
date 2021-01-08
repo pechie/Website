@@ -122,7 +122,7 @@ export default function Work() {
             </p>
           </div>
           <div className="project-card-media">
-            <img src="/images/bold-and-brash-bot.JPG" alt="Twitter Bot" />
+            <img src="/images/bold-and-brash-bot.png" alt="Twitter Bot" />
           </div>
         </div>
         <div className="project-card-item">
