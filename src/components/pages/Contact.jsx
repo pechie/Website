@@ -7,7 +7,6 @@ export default function Contact() {
   return (
     <>
       <ContactMe />
-      <Footer />
     </>
   );
 }
