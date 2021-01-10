@@ -139,7 +139,7 @@ export default function Work() {
             </p>
           </div>
           <div className="project-card-media">
-            <video src="/videos/sir-vive-gameplay.mp4" autoPlay loop muted />
+            <video src="/videos/sir-vive-gameplay.mp4" autoPlay loop muted playsInline/>
           </div>
         </div>
       </div>
