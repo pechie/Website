@@ -2,14 +2,7 @@ import React from "react";
 import "./Document.css";
 
 export default function Document() {
-  function isMobile() {
-    try { 
-      document.createEvent("TouchEvent"); return true; 
-    }
-    catch(e) { 
-      return false; 
-    }
-  }
+  const isMobile = (/Mobi|Android/i.test(navigator.userAgent));
   const resume_element = (isMobile)
     ? <p className="document-mobile">
         Resume not available for viewing on mobile, 
