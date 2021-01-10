@@ -109,4 +109,8 @@
   .contact-cards-container {
     flex-direction: column;
   }
+
+  .contact-text-container > h1 {
+    margin-top: 50px;
+  }
 }
