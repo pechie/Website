@@ -7,7 +7,7 @@ export default function Cards() {
     <div className="cards-container">
       <Scrollbars
         className="scrollbar"
-        hideTracksWhenNotNeeded="true"
+        hideTracksWhenNotNeeded={true}
         renderTrackVertical={({ style, ...props }) => (
           <div
             {...props}

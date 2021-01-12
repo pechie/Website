@@ -6,7 +6,7 @@ import "./HeroSection.css";
 export default function HeroSection() {
   function isMobile() { return ('ontouchstart' in document.documentElement); }
   const video_src = (window.innerWidth < 800 && isMobile()) 
-    ? "/videos/background-video-720p-crop.mp4" 
+    ? "/videos/background-video-720p-crop.mp4"
     : "/videos/background-video.mp4";
   return (
     <div className="hero-container">
