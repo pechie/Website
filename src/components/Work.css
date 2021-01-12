@@ -140,6 +140,7 @@ h1 {
   margin: 30px;
   margin-top: auto;
   margin-bottom: auto;
+  padding: 15px;
 }
 
 .project-card-media > video {
