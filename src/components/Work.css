@@ -217,8 +217,17 @@ h1 {
 }
 
 @media only screen and (max-width: 800px) {
+  .job-card-item {
+    width: 80%;
+  }
+
+  .project-card-item {
+    width: 80%;
+  }
+
   .project-card-text > p {
     font-size: 18px;
+    margin-top: 50px;
   }
 
   .project-card-text {
@@ -239,5 +248,17 @@ h1 {
 
   .job-header-container > img {
     margin: 0;
+  }
+
+  .job-card-item {
+    width: 85%;
+  }
+
+  .project-card-item {
+    width: 85%;
+  }
+
+  .project-card-text > p {
+    font-size: 16px;
   }
 }

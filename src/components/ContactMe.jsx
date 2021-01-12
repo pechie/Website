@@ -30,7 +30,7 @@ export default function ContactMe() {
             the moment.
           </p>
           <button className="phone-button" type="button">
-            <i class="fas fa-phone-square-alt"></i>
+            <i className="fas fa-phone-square-alt"></i>
             <a href="tel:+1-774-452-2647">(774)-452-2647</a>
           </button>
         </div>
