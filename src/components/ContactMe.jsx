@@ -6,7 +6,6 @@ export default function ContactMe() {
     <div className="contact-main-container">
       <div className="contact-text-container">
         <h1>Contact Me</h1>
-        <p>Please feel free to reach out with any questions you may have.</p>
       </div>
       <div className="contact-cards-container">
         <div className="contact-card-item">
@@ -21,18 +20,6 @@ export default function ContactMe() {
               Send me an Email
             </button>
           </a>
-        </div>
-        <div className="contact-card-item">
-          <h1>Phone</h1>
-          <p>
-            My cell phone number is below, send me a text at any hour of the
-            day, or give me a call/leave a message if I am not able to talk at
-            the moment.
-          </p>
-          <button className="phone-button" type="button">
-            <i className="fas fa-phone-square-alt"></i>
-            <a href="tel:+1-774-452-2647">(774)-452-2647</a>
-          </button>
         </div>
       </div>
     </div>

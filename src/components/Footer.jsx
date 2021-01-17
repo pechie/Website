@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { Button } from "./Button";
 import "./Footer.css";
 
 export default function Footer() {
@@ -40,7 +39,7 @@ export default function Footer() {
               Nikolas Pechie
             </Link>
           </div>
-          <small className="updated-tag">Updated 01/12/2021</small>
+          <small className="updated-tag">Updated 01/17/2021</small>
           <div className="social-icons">
             <Link
               className="social-icon-link email"
