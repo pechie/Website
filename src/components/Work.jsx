@@ -8,25 +8,28 @@ export default function Work() {
       <div className="job-cards-container">
         <div className="job-card-item">
           <div className="job-header-container">
-            <img src="/images/bose-logo.png" alt="Bose Logo" />
+            <img src="/images/iss-logo.jpg" alt="ISS Logo" />
             <div className="job-header-text-container">
-              <h1>Bose Corporation</h1>
-              <p>Software Development Co-op</p>
-              <p>Framingham, MA</p>
-              <p>January - August 2018</p>
+              <h1>Integrity Security Services</h1>
+              <p>Software Engineering Co-op</p>
+              <p>Boston, MA</p>
+              <p>December 2019 - August 2020</p>
             </div>
           </div>
           <div className="job-body-container">
             <ul>
               <li>
-                Developed and continuously updated an iOS application using
-                Swift to test the different features and firmware versions of a
-                product.
+                Refactored Javascript code using the NodeJS framework to improve
+                performance and readability of our code base.
               </li>
               <li>
-                Integrated iOS Snapshot Test Case into our project, created unit
-                tests to ensure that accidental UI changes were automatically
-                detected.
+                Implemented AWS Simple Queue Service and AWS Lambda, and
+                deployed Lambda code to handle messages from multiple FIFO
+                queues.
+              </li>
+              <li>
+                Developed a REST API to handle customer requests for
+                certificates.
               </li>
             </ul>
           </div>
@@ -61,28 +64,25 @@ export default function Work() {
         </div>
         <div className="job-card-item">
           <div className="job-header-container">
-            <img src="/images/iss-logo.jpg" alt="ISS Logo" />
+            <img src="/images/bose-logo.png" alt="Bose Logo" />
             <div className="job-header-text-container">
-              <h1>Integrity Security Services</h1>
-              <p>Software Engineering Co-op</p>
-              <p>Boston, MA</p>
-              <p>December 2019 - August 2020</p>
+              <h1>Bose Corporation</h1>
+              <p>Software Development Co-op</p>
+              <p>Framingham, MA</p>
+              <p>January - August 2018</p>
             </div>
           </div>
           <div className="job-body-container">
             <ul>
               <li>
-                Refactored Javascript code using the NodeJS framework to improve
-                performance and readability of our code base.
+                Developed and continuously updated an iOS application using
+                Swift to test the different features and firmware versions of a
+                product.
               </li>
               <li>
-                Implemented AWS Simple Queue Service and AWS Lambda, and
-                deployed Lambda code to handle messages from multiple FIFO
-                queues.
-              </li>
-              <li>
-                Developed a REST API to handle customer requests for
-                certificates.
+                Integrated iOS Snapshot Test Case into our project, created unit
+                tests to ensure that accidental UI changes were automatically
+                detected.
               </li>
             </ul>
           </div>

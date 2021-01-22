@@ -12,7 +12,7 @@ export default function About() {
           I will be graduating this upcoming May with a B.S. in Computer
           Engineering and a minor in Computer Science. Throughout my time at
           college, I completed three internships in software engineering which
-          gave me a total of 23 months of working experience. I am seeking full
+          gave me a total of 2 years of working experience. I am seeking full
           time employment upon graduation, ideally doing back end development
           using Javascript or Java, but I am open to any and all opportunities.
           Outside of software engineering, I am an avid basketball and soccer
