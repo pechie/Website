@@ -39,7 +39,7 @@ export default function Footer() {
               Nikolas Pechie
             </Link>
           </div>
-          <small className="updated-tag">Updated 01/17/2021</small>
+          <small className="updated-tag">Updated 01/24/2021</small>
           <div className="social-icons">
             <Link
               className="social-icon-link email"

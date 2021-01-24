@@ -9,7 +9,7 @@ export default function About() {
         <h1>About me</h1>
         <p>
           Hi, I'm Nick. I am currently a Senior at Northeastern University, and
-          I will be graduating this upcoming May with a B.S. in Computer
+          I will be graduating in May of 2021 with a B.S. in Computer
           Engineering and a minor in Computer Science. Throughout my time at
           college, I completed three internships in software engineering which
           gave me a total of 2 years of working experience. I am seeking full
