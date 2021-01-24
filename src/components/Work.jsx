@@ -19,8 +19,8 @@ export default function Work() {
           <div className="job-body-container">
             <ul>
               <li>
-                Refactored Javascript code using the NodeJS framework to improve
-                performance and readability of our code base.
+                Refactored Javascript code using the NodeJS framework to improve 
+                performance by 31% and improve readability of our code base.
               </li>
               <li>
                 Implemented AWS Simple Queue Service and AWS Lambda, and
