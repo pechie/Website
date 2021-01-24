@@ -19,17 +19,21 @@ export default function Work() {
           <div className="job-body-container">
             <ul>
               <li>
-                Refactored Javascript code using the NodeJS framework to improve 
-                performance by 31% and improve readability of our code base.
+                Restructured credential management across all Node.js services 
+                to adhere to AWS security best practices.
               </li>
+              <li>
+                Simplified existing Node.js microservices by implementing serverless 
+                functions (AWS Lambda) to handle periodic tasks.
+                </li>
               <li>
                 Implemented AWS Simple Queue Service and AWS Lambda, and
                 deployed Lambda code to handle messages from multiple FIFO
                 queues.
               </li>
               <li>
-                Developed a REST API to handle customer requests for
-                certificates.
+                Developed a new REST API service to assist customers in provisioning 
+                V2X certificates per the IEEE 1609.2 standard.
               </li>
             </ul>
           </div>
@@ -47,9 +51,8 @@ export default function Work() {
           <div className="job-body-container">
             <ul>
               <li>
-                Developed code in C++ to translate gravity force measurements
-                from three sensors on an autonomous robot to radial coordinates
-                to be displayed in a 3D model.
+                Translated gravity force measurements from three sensors on an autonomous robot 
+                into radial coordinates to be displayed in a 3D model, using C++.
               </li>
               <li>
                 Integrated TeamCity builds with Coverity and automated a report
