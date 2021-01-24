@@ -6,11 +6,11 @@ export default function Document() {
   const resume_element = (isMobile)
     ? <p className="document-mobile">
         Resume not available for viewing on mobile, 
-        but you can download it <a href="/Resume_01_22_21.pdf" download>here</a>
+        but you can download it <a href="/Resume_01_24_21.pdf" download>here</a>
       </p>
     : <iframe
         className="document-pdf"
-        src="/Resume_01_22_21.pdf"
+        src="/Resume_01_24_21.pdf"
         title="Resume"
       />;
 
