@@ -39,7 +39,7 @@ export default function Footer() {
               Nikolas Pechie
             </Link>
           </div>
-          <small className="updated-tag">Updated 01/24/2021</small>
+          <small className="updated-tag">Updated 05/04/2021</small>
           <div className="social-icons">
             <Link
               className="social-icon-link email"
@@ -63,7 +63,7 @@ export default function Footer() {
               className="social-icon-link linkedin"
               to={{
                 pathname:
-                  "https://www.linkedin.com/in/nikolas-pechie-483712139/",
+                  "https://www.linkedin.com/in/npechie/",
               }}
               target="_blank"
               aria-label="LinkedIn"
